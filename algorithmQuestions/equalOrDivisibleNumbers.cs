@@ -7,10 +7,10 @@ public class Program
 {
     static void Main(string[] args)
     {
-        EvenNumbers();
+        DivisibleNumbers();
     }
 
-    public static void EvenNumbers()
+    public static void DivisibleNumbers()
     {
         Console.Write("Kaç adet sayı girilecek : ");
         string numbers = Console.ReadLine();
